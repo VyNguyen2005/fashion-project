@@ -1,0 +1,87 @@
+.navbar .logo-admin {
+    height: 50px;
+    width: 100px;
+}
+
+.navbar .admin-profile {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar .dropdown {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-profile {
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    height: 50px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 60px;
+}
+.sub-menu-wrap{
+    position: absolute;
+    right: 50px;
+    top: 10%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sub-menu{
+    background: #bfb8b8;
+    padding: 20px;
+    margin: 10px;
+}
+.sub-menu .line{
+    height: 1px;
+    background: black;
+    border: none;
+    margin: 2px 0 10px;
+}
+.sub-menu h3{
+    font-weight: 700;
+}
+.sub-menu-link .log-out{
+    height: 30px;
+    width: 30px;
+}
+.angle-right{
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media(max-width: 800px) {
+    .navbar {
+        padding: 10px 30px;
+    }
+    .logo-admin {
+        height: 40px;
+        width: 75px;
+    }
+    .dropdown {
+        height: 40px;
+        width: 75px;
+    }
+}

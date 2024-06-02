@@ -1,0 +1,39 @@
+
+.slidebar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    gap: 30px;
+    padding-top: 30px;
+    max-width: 270px;
+}
+.slidebar-item img{
+    width: 50px;
+    height: 50px;
+}
+.slidebar-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px 20px;
+    padding: 8px 15px;
+    background: gainsboro;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+@media(max-width: 800px){
+    .slidebar{
+        padding: 30px 0px;
+        max-width: none;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+    .slidebar-item{
+        margin: 0;
+    }
+}

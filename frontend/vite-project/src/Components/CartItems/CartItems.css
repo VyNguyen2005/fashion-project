@@ -1,0 +1,110 @@
+.cartitems{
+    margin: 30px 170px;
+}
+.cartitems hr{
+    height: 2px;
+    background: rgb(216, 213, 213);
+    border: 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(53, 53, 53);
+    border-bottom: 2px solid rgb(216, 213, 213);
+}
+.cartitems-product{
+    height: 100px;
+    width: 100px;
+}
+.cartitems-format .cartitems-remove-icon{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.cartitems-format div button{
+    border: 1px solid gray;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+    background: gainsboro;
+}
+.cartitems-down{
+    display: flex;
+    margin: 100px 0;
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 20px;
+}
+.cartitems-total h1{
+    color: rgb(1, 1, 69);
+    font-size: 25px;
+    font-weight: 700;
+}
+.cartitems-item-total{
+    display: flex;
+    justify-content: space-between;
+}
+.cartitems-total button{
+    height: 56px;
+    width: 278px;
+    border: none;
+    background: rgb(1, 1, 69);
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin: 30px 0;
+    cursor: pointer;
+}
+.cartitems-promocode{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 50px;
+}
+.cartitems-promocode p{
+    color: rgb(71, 69, 69);
+}
+.cartitems-promobox{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 15px;
+    height: 56px;
+    background: gainsboro;
+}
+.cartitems-promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    align-items: center;
+    text-align: center;
+}
+.cartitems-promobox input::placeholder{
+    font-size: 17px;
+}
+.cartitems-promobox button{
+    width: 100px;
+    height: 56px;
+    color: #fff;
+    background: black;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+

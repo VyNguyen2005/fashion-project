@@ -1,0 +1,58 @@
+
+.news-letter{
+    width: 65%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(0.25turn, #474646, #716d6f, #78726c);
+    gap: 30px;
+}
+.news-letter h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+.news-letter p{
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+.news-letter div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffff;
+    width: 600px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid gainsboro;
+}
+.news-letter div input{
+    width: 450px;
+    margin-left: 35px;
+    border: none;
+    outline: none;
+}
+.news-letter div input::placeholder{
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+.news-letter div button{
+    width: 210px;
+    height: 75px;
+    border: none;
+    border-radius: 80px;
+    background: rgb(68, 65, 65);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+.news-letter div button:hover{
+    background-color: #312f30;
+}

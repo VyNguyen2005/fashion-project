@@ -1,0 +1,235 @@
+.item{
+    width: 270px;
+    margin: 0px 10px;
+}
+.item p{
+    margin: 6px 0px;
+}
+.item img{
+    width: 280px;
+    height: 280px;
+}
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+.item-prices-new{
+    color: rgb(39, 38, 38);
+    font-size: 18px;
+    font-weight: 600;
+}
+.item-prices-old{
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.item:hover{
+    transform: scale(1.02);
+    transition: 0.6 ease;
+}
+/* @media(max-width: 1232px){
+    .item{
+        width: 250px;
+        margin: 0px 15px;
+        font-size: 16px;
+    }
+    .item img{
+        width: 270px;
+        height: 270px;
+    }
+    .item-prices-old{
+       font-size: 16px;
+    }
+    .item-prices-new{
+        font-size: 16px;
+    }
+}
+@media(max-width: 1156px){
+    .item{
+        width: 250px;
+        margin: 0px 10px;
+        font-size: 16px;
+    }
+    .item img{
+        width: 260px;
+        height: 260px;
+    }
+    .item-prices-old{
+       font-size: 16px;
+    }
+    .item-prices-new{
+        font-size: 16px;
+    }
+}
+@media(max-width: 1096px){
+    .item{
+        width: 250px;
+        margin: 0px 5px;
+        font-size: 16px;
+    }
+    .item img{
+        width: 250px;
+        height: 250px;
+    }
+    .item-prices-old{
+       font-size: 16px;
+    }
+    .item-prices-new{
+        font-size: 16px;
+    }
+}
+@media(max-width: 1072px){
+    .item{
+        width: 200px;
+        margin: 0px 20px;
+        font-size: 14px;
+    }
+    .item img{
+        width: 230px;
+        height: 230px;
+    }
+    .item-prices-old{
+       font-size: 14px;
+    }
+    .item-prices-new{
+        font-size: 14px;
+    }
+}
+@media(max-width: 1000px){
+    .item{
+        width: 200px;
+        margin: 0px 10px;
+        font-size: 14px;
+    }
+    .item img{
+        width: 210px;
+        height: 210px;
+    }
+    .item-prices-old{
+       font-size: 14px;
+    }
+    .item-prices-new{
+        font-size: 14px;
+    }
+}
+@media(max-width: 928px){
+    .item{
+        width: 150px;
+        margin: 0px 25px;
+        font-size: 11px;
+    }
+    .item img{
+        width: 190px;
+        height: 190px;
+    }
+    .item-prices-old{
+       font-size: 12px;
+    }
+    .item-prices-new{
+        font-size: 12px;
+    }
+}
+@media(max-width: 860px){
+    .item{
+        width: 150px;
+        margin: 0px 20px;
+        font-size: 11px;
+    }
+    .item img{
+        width: 180px;
+        height: 180px;
+    }
+    .item-prices-old{
+       font-size: 12px;
+    }
+    .item-prices-new{
+        font-size: 12px;
+    }
+}
+@media(max-width: 803px){
+    .item{
+        width: 150px;
+        margin: 0px 15px;
+        font-size: 11px;
+    }
+    .item img{
+        width: 170px;
+        height: 170px;
+    }
+    .item-prices-old{
+       font-size: 12px;
+    }
+    .item-prices-new{
+        font-size: 12px;
+    }
+}
+@media(max-width: 755px){
+    .item{
+        width: 150px;
+        margin: 0px 10px;
+        font-size: 11px;
+    }
+    .item img{
+        width: 160px;
+        height: 160px;
+    }
+    .item-prices-old{
+       font-size: 12px;
+    }
+    .item-prices-new{
+        font-size: 12px;
+    }
+}
+@media(max-width: 706px){
+    .item{
+        width: 150px;
+        margin: 0px 5px;
+        font-size: 11px;
+    }
+    .item img{
+        width: 150px;
+        height: 150px;
+    }
+    .item-prices-old{
+       font-size: 12px;
+    }
+    .item-prices-new{
+        font-size: 12px;
+    }
+}
+@media(max-width: 655px){
+    .item{
+        width: 150px;
+        margin: 0px 0px;
+        font-size: 11px;
+    }
+    .item img{
+        width: 140px;
+        height: 140px;
+    }
+    .item-prices-old{
+       font-size: 12px;
+    }
+    .item-prices-new{
+        font-size: 12px;
+    }
+}
+@media(max-width: 595px){
+    .item{
+        width: 150px;
+        margin: 0px -5px;
+        font-size: 11px;
+    }
+    .item img{
+        width: 130px;
+        height: 130px;
+    }
+    .item-prices-old{
+       font-size: 12px;
+    }
+    .item-prices-new{
+        font-size: 12px;
+    }
+} */
+
